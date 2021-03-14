@@ -14,13 +14,13 @@
 </template>
 
 <script setup>
-import { defineProps, reactive } from 'vue'
+import { defineProps, reactive } from 'vue';
 
 defineProps({
-  msg: String
-})
-
-const state = reactive({ count: 0 })
+  msg: String,
+});
+// eslint-disable-next-line
+const state = reactive({ count: 0 });
 </script>
 
 <style scoped>
