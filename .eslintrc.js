@@ -4,7 +4,12 @@ module.exports = {
     node: true,
     browser: true,
   },
-  extends: ['plugin:vue/vue3-recommended', 'eslint:recommended', 'plugin:prettier/recommended'],
+  extends: [
+    'eslint:recommended',
+    'airbnb-base',
+    'plugin:vue/vue3-recommended',
+    'plugin:prettier/recommended',
+  ],
   plugins: ['vue'],
   parser: 'vue-eslint-parser',
   parserOptions: {
